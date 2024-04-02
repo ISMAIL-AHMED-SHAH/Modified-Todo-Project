@@ -1,0 +1,32 @@
+{
+  "name": "shahi-todo-application",
+  "version": "1.0.0",
+  "description": "This npm project is a CLI todo list application, offering an interactive interface for users to manage tasks efficiently via the terminal, powered by inquirer and chalk libraries.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CLI",
+    "Todo List",
+    "Node.js",
+    "Command Line Interface",
+    "Tasks Management",
+    "Interactive",
+    "Terminal",
+    "Efficiency",
+    "Ismail Ahmed Shah"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.4",
+    "inquirer": "^9.2.17"
+  }
+}
